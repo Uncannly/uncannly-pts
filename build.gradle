@@ -28,6 +28,7 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('com.ivona:ivona-speechcloud-sdk-java:1.0.0')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile("org.powermock:powermock-mockito-release-full:1.6.4")
 }

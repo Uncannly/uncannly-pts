@@ -23,3 +23,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+### Resource Properties ###
+src/main/resources/IvonaCredentials.properties

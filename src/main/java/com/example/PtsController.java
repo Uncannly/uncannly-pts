@@ -20,7 +20,7 @@ public class PtsController {
 
     @GetMapping
     void pts(@RequestParam(value = "word") String word, HttpServletResponse response) throws IOException {
-        InputStream myStream = ptsService.create(word);
+        InputStream myStream = ptsService.createOld(word);
         ServletOutputStream outputStream = response.getOutputStream();
         IOUtils.copy(myStream, outputStream);
         response.flushBuffer();
